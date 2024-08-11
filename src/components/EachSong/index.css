@@ -1,0 +1,52 @@
+.list-styling {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 120px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.album-icon {
+  height: 100px;
+  width: 150px;
+  margin-right: 10px;
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name-styling {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.genre-styling {
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.album-icon-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.duration-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-styling {
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background-color: transparent;
+  margin-left: 10px;
+}
